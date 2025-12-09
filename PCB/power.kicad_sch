@@ -5,7 +5,7 @@
 	(uuid "0041f9b5-a4cd-45bf-a321-28785c58ff71")
 	(paper "A4")
 	(title_block
-		(title "template_pretty_name")
+		(title "NAUTILUS Bms Test Board")
 	)
 	(lib_symbols
 		(symbol "Analog_Switch:MAX40200AUK"

@@ -5,7 +5,7 @@
 	(uuid "e08d3e09-d805-4650-baae-a4ad395cf0c7")
 	(paper "A4")
 	(title_block
-		(title "template_pretty_name")
+		(title "NAUTILUS Bms Test Board")
 	)
 	(lib_symbols)
 	(no_connect

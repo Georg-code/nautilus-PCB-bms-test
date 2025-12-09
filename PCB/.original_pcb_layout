@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "template_pretty_name")
+		(title "NAUTILUS Bms Test Board")
 	)
 	(layers
 		(0 "F.Cu" signal)
