@@ -1,0 +1,12 @@
+name: KiCAD export
+
+on:
+  push:
+    tags:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  export:
+    uses: aris-space/kicad-ci-workflows/.github/workflows/export.yml@main
+    secrets: inherit

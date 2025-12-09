@@ -1,0 +1,6 @@
+[submodule "PCB/Parts/kicad-standard-repo"]
+	path = PCB/Parts/kicad-standard-repo
+	url = https://github.com/aris-space/kicad-standard-repo.git
+[submodule "PCB/Parts/kicad-extra-repo"]
+	path = PCB/Parts/kicad-extra-repo
+	url = https://github.com/aris-space/kicad-extra-repo.git

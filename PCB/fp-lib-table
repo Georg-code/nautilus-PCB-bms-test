@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kicad-standard-lib")(type "KiCad")(uri "${KIPRJMOD}/Parts/kicad-standard-repo/kicad-standard-lib.pretty")(options "")(descr ""))
+  (lib (name "kicad-extra-lib")(type "KiCad")(uri "${KIPRJMOD}/Parts/kicad-extra-repo/kicad-extra-lib.pretty")(options "")(descr ""))
+)

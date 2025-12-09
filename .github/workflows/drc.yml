@@ -1,0 +1,9 @@
+name: KiCAD PCB DRC
+
+on:
+  push
+
+jobs:
+  pcb-drc:
+    uses: aris-space/kicad-ci-workflows/.github/workflows/drc.yml@main
+    secrets: inherit

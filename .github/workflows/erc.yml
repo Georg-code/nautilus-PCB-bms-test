@@ -1,0 +1,9 @@
+name: KiCAD Schematic ERC
+
+on:
+  push
+
+jobs:
+  schematic-erc:
+    uses: aris-space/kicad-ci-workflows/.github/workflows/erc.yml@main
+    secrets: inherit

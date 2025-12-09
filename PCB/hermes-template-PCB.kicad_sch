@@ -1,0 +1,437 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e08d3e09-d805-4650-baae-a4ad395cf0c7")
+	(paper "A4")
+	(title_block
+		(title "template_pretty_name")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 116.84 78.74)
+		(uuid "3874b03d-a5e9-4b4c-a087-2e7810a49922")
+	)
+	(no_connect
+		(at 175.26 129.54)
+		(uuid "8cfd9809-b9a0-4c82-9ec6-de742d36cd9d")
+	)
+	(no_connect
+		(at 116.84 81.28)
+		(uuid "97ba1f84-7474-4e1e-b745-048b8366ff40")
+	)
+	(no_connect
+		(at 116.84 83.82)
+		(uuid "b50ac9b3-3887-4790-b420-3ea39b6f56b9")
+	)
+	(no_connect
+		(at 116.84 76.2)
+		(uuid "bb156f10-636d-4f69-b793-a658dcb14c5d")
+	)
+	(bus
+		(pts
+			(xy 114.3 31.75) (xy 177.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2474e245-7f6a-43d3-92cb-138023f7154a")
+	)
+	(bus
+		(pts
+			(xy 165.1 57.15) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b52d355-0c01-48c0-8c38-d33b43a6d295")
+	)
+	(bus
+		(pts
+			(xy 114.3 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59382305-fc49-4ed9-a306-c682047e3129")
+	)
+	(bus
+		(pts
+			(xy 114.3 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715914cd-c2ae-4fe8-a120-5bd6ad10818a")
+	)
+	(bus
+		(pts
+			(xy 114.3 81.28) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d14a846-1d45-4615-933a-8c3d72f59524")
+	)
+	(bus
+		(pts
+			(xy 175.26 129.54) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9118ee38-7165-4b57-bbdf-91c38253b32a")
+	)
+	(bus
+		(pts
+			(xy 114.3 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994c7899-e079-489a-9e97-ad6636fd3dd2")
+	)
+	(bus
+		(pts
+			(xy 114.3 83.82) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92e4336-4016-46d4-869d-69f930fa573c")
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "456f0e6a-8b20-4b1c-9c6b-72f1ba8c4140")
+		(property "Sheetname" "USB Connector"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 177.8 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{USB+,USB-}" bidirectional
+			(at 177.8 31.75 180)
+			(uuid "884d51c3-c757-4f6f-a8eb-745e3dcca9f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hermes-template-PCB"
+				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 165.1)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66a70237-0ec7-461c-a4eb-6f8f8d4c4a1d")
+		(property "Sheetname" "Power"
+			(at 76.2 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 76.2 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hermes-template-PCB"
+				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 38.1 127)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c1587ca-4466-4912-a6c6-0394edd5f9c1")
+		(property "Sheetname" "Microcontroller"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 76.2 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{USB+,USB-}" bidirectional
+			(at 114.3 31.75 0)
+			(uuid "f0e89084-58a8-4a1a-a5ec-105d7c1e2594")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN{Rx,Tx}" bidirectional
+			(at 114.3 57.15 0)
+			(uuid "7bffb39d-cf81-4323-9261-b53476471369")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{SDA,SCL}" bidirectional
+			(at 114.3 76.2 0)
+			(uuid "f2e34669-ea1e-4e34-9c24-2dec893affea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART3{Rx,Tx}" bidirectional
+			(at 114.3 83.82 0)
+			(uuid "d6bab1d3-fd04-4efb-b16d-53f34441665f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3{SDA,SCL}" bidirectional
+			(at 114.3 78.74 0)
+			(uuid "cb7e7fcf-fc7f-4209-98c6-dfbd89e49ed4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1{Rx,Tx}" bidirectional
+			(at 114.3 81.28 0)
+			(uuid "3111a7c4-20e4-4b67-8727-b746104404c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "hermes-template-PCB"
+				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 50.8)
+		(size 38.1 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "978df539-a4e1-4acd-a01d-e40eea2e6ccb")
+		(property "Sheetname" "Backplane connector, mounting"
+			(at 177.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stack_format.kicad_sch"
+			(at 177.8 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{CANH,CANL}" bidirectional
+			(at 177.8 57.15 180)
+			(uuid "47a2c138-d855-4f2b-a523-9eb005579d56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CATS_IO[1..2]" output
+			(at 177.8 129.54 180)
+			(uuid "16c28147-028e-4e5f-a5e1-f25010e320ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hermes-template-PCB"
+				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 50.8)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8051718-b319-4171-98e1-b99d03d15ff9")
+		(property "Sheetname" "CAN Transceiver"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 127 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{CANH, CANL}" bidirectional
+			(at 165.1 57.15 0)
+			(uuid "744f9fca-dff6-4b41-9f15-9f320e98bb51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN{Rx,Tx}" bidirectional
+			(at 127 57.15 180)
+			(uuid "0d395991-283e-4077-ba28-9cd6c43080d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hermes-template-PCB"
+				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
